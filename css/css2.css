@@ -1,0 +1,718 @@
+@import url(https://cdn.jsdelivr.net/font-iropke-batang/1.2/font-iropke-batang.css);
+@import url(https://fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+.notosanskr{ 
+    font-family: 'Noto Sans KR', sans-serif;
+   }
+
+   *{
+    margin:0 ;
+    padding:0;
+    color:black;
+ 
+}   
+
+body {
+    overflow-x: hidden; 
+ }
+ a{
+     color:black;
+     text-decoration: none;
+ }
+ li{
+     list-style: none;
+ }
+ 
+ .iropke{
+     font-family:'Iropke Batang',Arial, Helvetica, sans-serif;
+ }
+ .noto{
+     font-family:'Noto Sans Kr', sans-serif;
+ }
+ /* header menu */
+ header{
+     width:90%;
+     display: flex;
+     margin:0 auto;
+     justify-content: space-between;
+     align-items: center;
+  }
+  
+  .logo{
+     margin-right: 0;
+  }
+  
+  header ul{
+      display: flex;
+      }
+  
+  header .menu ul li{
+      padding:2.1875em;
+  }
+  
+  header .menu ul li a{
+      font-family:"Iropke Batang", sans-serif;
+      font-size : 1.0625em;
+      font-weight: 600;
+  }
+  
+  header .call-menu .call ul{
+      display: flex;
+  }
+  header .call-menu .call ul li{
+      font-size:0.875em;
+      font-family:'NotoSansKR', dotum, sans-serif;
+  }
+  
+  header .call-menu .call  h4{
+      font-size:1.6875em;
+      font-family:'Noto Sans Kr',sans-serif;
+  }
+ .main-visual{
+     align-items: center;
+     margin:0 auto;
+     height:90%;
+ } 
+
+ /* .main-mobile{
+    display: none;
+} */
+
+/* banner content */
+.banner{
+    width:90%;
+    margin:0 auto; 
+}
+
+.main-mobile{
+    display: none;
+}
+
+section img{
+/* width:90%; */
+margin: 0 auto;
+}
+
+.banner .banner-text{
+    position:absolute;
+    top:14.375em;
+    left:14.375em;
+    text-align: center;
+}
+.banner .banner-text h1{
+    color:#fff;
+    font-family:'Iropke Batang', Arial, Helvetica, sans-serif;
+    font-size:2.6875em;
+    font-weight:400;
+    padding-bottom:0.5em;
+    text-align: center;
+
+}
+.banner .banner-text p{
+    color:#fff;
+    font-family:"Noto Sans Kr", Arial, Helvetica, sans-serif;
+    font-size:0.9375em;
+}
+
+.banner img{
+    width:100%;
+
+}
+/* content menu4  */
+.content{
+    width:70%;
+    margin:3.75em auto;
+}
+.content h1{
+    text-align: center;
+    padding-bottom:3.125em;
+}
+
+.content .menu{
+display: flex;
+justify-content: space-between;
+}
+
+.content .menu img{
+    width: 100%;
+}
+
+.content .menu h4{
+    font-size:1.125em;
+    font-family: 'Iropke Batang',sans-serif;
+    font-weight: 400;
+}
+.content .menu  p{
+    font-size:0.8125em;
+    font-family:'Noto Sans KR', sans-serif;
+    color:#999;
+    padding:0.25em 0 0.875em 0;
+}
+.content .menu h5{
+    font-size:1em;
+    font-family:'Iropke Batang',sans-serif;
+    color:#404040;
+    font-weight: 400;
+}
+
+
+/* .content::after{
+    content:"";
+    position:absolute;
+    background:url('../image/bg01.png') no-repeat;
+    width: 1000px;
+    height:1300px;
+    right:0px;
+    top: 550px;
+    z-index:-99;
+} */
+
+
+/* Button */
+.btn{
+    border: 1px solid #333;
+    width:150px;
+    text-align:center;
+    padding:20px 30px;
+    margin:50px auto;
+    cursor: pointer;
+}
+.btn .btn-button p{
+    display:inline-block;
+    margin-right:20px;
+}
+
+/*  2ND CONTENT */
+
+.content02 .container{
+    /* padding:180px 80px; */
+    position:relative;
+    bottom:370px;
+    margin-left:50px;
+}
+
+.content02 {
+    width: 90%;
+    /* background: url(../image/Difference_bg.png) no-repeat center; */
+    margin: 0 auto;
+    background-size: contain;
+}
+
+/* SHAPE */
+.content02 .image02::after{
+    content:"";
+    position:absolute;
+    background:url('../image/bg02.png') no-repeat;
+    width: 600px;
+    height:800px;
+    left: 0;
+    top:280px;
+    z-index:-1;
+}
+
+.contant02  .container ul{
+display: flex;
+padding-bottom:20px;
+} 
+
+
+
+.content02 .container h2{
+    padding-left:30px;
+    position:absolute;
+    top:-80px;
+    left:0;
+}
+.content-menu{
+    display: flex;
+}
+    /* /* position: relative; */
+    
+
+
+ .content02 .container ul li{
+    padding:35px;
+    text-align:center;
+    position:relative; 
+  
+}
+
+/* /도형 */
+
+.content02 .container ul li::after{
+    content:"";
+    position: absolute;
+    width:1px;
+    height:5.625rem;
+    background-color:black;
+    top:50%;
+    margin-top:-50px;
+    right:0;
+    z-index:99;
+}
+
+
+
+
+
+
+.content02 .container ul li:last-child::after{
+    display: none;
+
+}
+
+.content02 .container ul li img{
+    margin-bottom:0.625px;
+}
+
+.content02 .container a{
+    border:1px solid #333;
+    padding: 20px 35px;
+    margin-left:35px;
+    font-family:'Iropke Batang',sans-serif;
+}
+.content02 .image02{
+    padding:30px;   
+
+}
+.content02 .image02 img{
+    width:100%;
+}
+
+/* Content 03*/
+
+.content03{
+    width: 66%;
+    height:300px;
+    margin:0 auto ;
+    position:relative;
+    top:-200px;
+}
+
+.content03 .content-banner{
+    display: flex;
+    justify-content: space-between;
+}
+
+.content03 .content-banner .bn01{
+    background: url('../image/Interior_img02.png');
+    background-repeat: no-repeat;
+    width:90%;
+    height:500px;
+}
+ 
+.content03 .content-banner .bn02{
+    width:90%;
+    height:500px;
+    background: url(../image/center_img.png) no-repeat center top;
+
+}
+.content03 .content-banner .bn01 .slide{
+    /* position:absolute; */
+    left:50px;
+    height:59%;
+    width: 33%;
+    position:block;
+    background-color:#917c64;
+    padding: 14px;
+    opacity:.9;
+    
+    }
+    .content03 .content-banner .bn01 .slide img{
+        padding-bottom:100px;
+    }
+
+    .content03 .content-banner .bn01 .slide p{
+        color:white;
+        font-size: 13px;
+        font-family:'Iropke Batang', 'NotoSansKR', dotum, sans-serif;
+    }
+    
+    .content03 .content-banner .bn01 .slide h4{
+        color:white; 
+        font-size:20px;
+        padding-bottom: 40px;
+        font-family: 'Iropke Batang', 'NotoSansKR', dotum, sans-serif;
+    }
+    .content03 .content-banner .bn01 .slide ul {
+        display: flex;
+    }
+    .content03 .content-banner .bn01 .slide ul li:first-child{
+        opacity:1;
+    }
+
+    .content03 .content-banner .bn01 .slide ul li{
+        width:10px;
+        height: 10px;
+        border-radius: 10px;
+        margin-right:5px;
+        background: #fff;
+        opacity:0.3;
+    }
+.content03 .content-banner .bn02 .bn02-box{
+    border:1px solid #b9b9b9;
+    padding:100px 50px;
+    margin: 20px auto; 
+    width:70%;
+}
+
+.content03 .content-banner .bn02 .bn02-box h4{
+    font-size:20px;
+    color:#fff;
+    text-align:center;
+    padding: 10px 0;
+    font-family: 'Iropke Batang', 'NotoSansKR', dotum, sans-serif;
+}
+.content03 .content-banner .bn02 .bn02-box p{
+font-size: 14px;
+color:#bbb;
+text-align:center;
+font-family: 'Iropke Batang', 'NotoSansKR', dotum, sans-serif;
+}
+
+.content03{
+padding-bottom: 40px;
+}
+
+/* location */
+*{
+    list-style: none;
+    text-decoration:none;
+}
+
+a{
+    color:#333;
+}
+
+.content_location{
+    width:55%;
+    margin:0 auto;
+    position:relative;
+    top:-200px;
+    bottom:0;
+}
+
+.content_location .wrap_3{
+width:80%;
+margin-left:100px;
+padding-bottom:50px;
+
+}
+  
+
+.content_location .wrap_3 h3{
+    text-align: center;
+    padding:40px 0;
+    font-family:'Iropke Batang', 'NotoSansKR', dotum, sans-serif;
+}
+
+.content_location .wrap_3 .location_input .location_input_select{
+    display: flex;
+    justify-content: space-between;
+}
+.location_input .location_input_select .container{
+    width:25%;
+  
+}
+
+.location_input .location_input_select .container input{
+    width:100%;
+    padding:20px;
+    box-sizing: border-box;
+    border:1px solid #dedede;
+}
+
+.location_input .location_input_select .container2{
+        width :50%;
+        margin:0 10px;
+}
+
+.location_input .location_input_select .container2 input{
+    width:100%;
+    padding:20px;
+    box-sizing: border-box;
+    border:1px solid #dedede;
+}
+    
+.location_input .location_input_select .check_box{
+        
+        box-sizing: border-box;
+        width:20%;
+        font-size:14px;
+        
+} 
+.location_input .location_input_select .check_box ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:20px;
+    width:100%;
+    margin: 0 auto;
+    cursor:pointer;
+    box-sizing: border-box;
+    border: 1px solid #333;
+}
+
+/* 3 banners */
+.new_store ul{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    
+}
+.new_store ul li{
+  background:#f3f3f3;
+  width:32%;
+  padding:30px;
+  box-sizing:border-box;
+  position:relative;
+  
+}
+
+.new_store ul li span{
+  position:absolute;
+  top:5px;
+  right:10px;
+  padding: 3px 5px;
+  background-color:#917c64;
+  border-radius: 2px;
+  font-size:10px;
+  color:white;
+  
+}
+
+.new_store ul li p{
+font-size:14px;
+font-family:'NotoSansKR',  sans-serif;
+}
+
+.new_store ul li h4{
+font-family:'Iropke Batang';
+font-size: 16px;
+}
+/* middle bg */
+
+.imgbanner{
+    background:url('../image/location_text_bg.png') no-repeat ;
+    margin:25px auto;
+    width:90%;
+    align-items: center;
+    position:relative;
+    top:-200px;
+}
+    
+    .imgbanner h2{
+    padding:200px 0;
+    color:white;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+
+
+
+
+
+
+
+/* 도형 */
+.imgbanner::after{
+    content:"";
+    position:absolute;
+    background:url('../image/bg03.png') no-repeat;
+    width: 320px;
+    height:200px;
+    right:0px;
+    top:-191px;
+    padding-bottom:20px;
+    z-index:-1;
+}
+      
+
+
+
+
+
+
+
+
+/* Form */
+
+/* input 문의하기 */
+
+
+.input_form{
+    width:90%;
+    /* margin:70px 0; */
+    border:#ccc;
+    font-family:'Iropke Batang', 'NotoSansKR', dotum, sans-serif;
+    top:-150px;
+    position: relative;
+
+}
+.input_form .wrap_1 h3{
+    text-align: center;
+    padding-bottom: 40px;
+    font-size:26px; 
+    margin-bottom:50px;
+    font-weight: 600;
+    background: url('../image/h3_bg.png') no-repeat bottom;
+}
+
+.input_box span{
+    font-size:15px;
+    font-weight: 600;
+    display: block;
+}
+.input_box .input_box_size01{
+    width:60%;
+    border: 1px solid lightgray;
+
+}
+.input_box .input_box_size01 input{
+    width:100%;
+    padding:25px 10px;
+    box-sizing: border-box;
+    border: 1px solid lightgray;
+}
+.input_box .input_box_size02{
+    width:100%;
+    border: 1px solid lightgray;
+}
+.input_box .input_box_size02 input{
+width:100%;
+padding:25px 10px;
+box-sizing: border-box;
+border: 1px solid lightgray;
+}
+.input_box .input_box_call{
+    width:100%;
+    display: flex;
+    align-items :center;
+}
+.input_box .input_box_call input{
+    padding:25px 10px;
+    width:30%;
+    box-sizing: border-box;
+    border: 1px solid lightgray;
+}
+.input_box .input_box_call span{
+    margin: 0 10px;
+}
+.input_form .wrap_1 form .input_right .input_box_textarea textarea{
+    border: 1px solid #ccc;
+    height:350px;
+    max-height: 350px;
+    
+}
+
+.input_box_textarea textarea:focus{
+    outline:none;
+}
+.btn_style01{
+    float:right;
+    padding:10px 30px;
+    background-color:#fff;
+    cursor:pointer;
+}
+
+.pd-0{
+    padding:0;
+}
+
+
+
+.input_form .wrap_1 form{
+    width: 60%;
+    margin: 0 auto;
+}
+
+.input_form .wrap_1 form .question_form{
+    display: flex;
+    justify-content: space-between;
+}
+.input_form .wrap_1 form .question_form .input_left{
+/* flex-basis:400px; */
+width:50%;
+}
+
+/* footer */
+
+footer{
+    width:100%;
+    height: 300px;
+   
+    background:url('../image/footer_bg.png') no-repeat 100%;
+    margin:0 auto;
+    text-align: center;
+    font-family:'NotoSansKR', dotum, sans-serif;
+    padding-top:50px;
+
+
+}
+footer ul{
+    display: flex;
+    justify-content: center;
+  
+}
+
+footer ul li{
+    margin:5px;
+    padding:10px 0;
+}
+footer ul li a{
+    color:#333;
+    font-size:14px;
+    background-color: #504d50;
+    padding:5px 25px;
+}
+
+footer p{
+    color:#777;
+    padding-bottom: 20px;
+    font-size:14px;
+}
+
+
+
+
+/* 도형 */
+.input_form .wrap_1 .bg04 {
+    background:url('../image/bg04.png') no-repeat;
+    z-index:-9;
+    position:absolute;
+    bottom:-150px;
+    right:232px;
+    width:100%;
+    height:88%;
+}
+
+footer li:last-child a {
+    background: #221c18;
+}
+
+.input_form{
+    position:relative;
+}
+
+
+footer .top-btn{
+       position:absolute;
+       position: absolute;
+       top:-93px;
+       right:0;
+       width: 170px;
+       height: 170px;
+       border: none;
+       text-align: center;
+       font-size: 15px;
+       z-index: 90;
+       background:url('../img/top_btn_bg.png') no-repeat center;
+       color: #fff;
+       cursor: pointer;
+}
+
+.content02 .mobile-bg{
+    display: none;
+}
